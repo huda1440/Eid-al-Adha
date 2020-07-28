@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=Almarai);
+
+body {
+
+  background-repeat: repeat-y;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Almarai;
+  padding-bottom: 0em;
+    align-content: center;
+    background-color: #FFFFFF;
+}
+
+.page-wrap {
+      position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 2em auto;
+   align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+.canvas {
+   display: block;
+margin: auto;
+    margin-bottom: 15px;
+    align-items: center;
+
+}
+
+h1{
+    margin-top: 7%;
+    margin-bottom: 15px;
+    color: #6A5B44;
+}
+
+.header-up {
+    height: 640px;
+    background-size: cover;
+    background-position: center top;
+    background-image: url("med-3.png");
+}
+
+
+
+.controls{
+    margin-top:40px;
+       margin: 2em auto;
+
+}
+
+.controls__input {
+  display: inline-block;
+  background: none;
+  border: 1px solid #ccc;;
+  font-size:18px;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+  color: #6A5B44;
+   width:450px;
+ font-family: Almarai, sans-serif;
+}
+
+.button {
+  border: none;
+    border-radius: 8px;
+  background-color: #A58662;
+padding: 16px 28px;
+    text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:24px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button4 {
+  background-color: #0B656E;
+}
+
+.button4:hover {
+    background-color: #308F98;
+}
+
+.controls__label {
+  display: inline-block;
+  font-size: 1.2em;
+  padding-top: .3em;
+  margin-bottom: 2em;
+  border-bottom: 2px solid #ccc;
+  color:#eee;
+  margin-bottom: 5px;
+    width: 450px;
+}
+
+canvas {
+  background-color: #eee;
+  transition: opacity .3s;
+}
+canvas.show {
+  opacity: 1;
+}
+
+.canvas-wrap {
+  margin-top: 50px;
+  position: relative;
+}
+
+#canvasID {
+  z-index: 9999;
+}
+
+canvas1 {
+  background-color: #6a5b44;
+  transition: opacity .3s;
+}
+canvas1.show {
+  opacity: 1;
+}
+
+.canvas-wrap1 {
+  margin-top: 50px;
+  position: relative;
+}
+
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+     align-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+#canvasID1 {
+  z-index: 9999;
+}
+
+label {
+  background-color: #0B656E;
+  color: black;
+  font-weight: bold;
+  padding: 8px;
+  text-transform: uppercase;
+  font-family: Almarai, sans-serif;
+  font-size:30px;
+}
+
+a {
+
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 4px;
+  font-size: 12pt;
+}
+
+#footer {
+  background-color: #0B656E;
+  color: #fff;
+  font-size: 8pt;
+  letter-spacing: 1px;
+  padding: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 600px){
+   .page-wrap {
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+      .header-up {
+              height: 840px;
+         list-style: none;
+         background-color: #eee;
+    background-size: cover;
+     background-position: center top;
+    background-image: url("smal-h.png");
+}
+    }
+
+@media screen and (min-width: 750px){
+      .page-wrap {
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+    }
+      .header-up {
+                     height: 840px;
+
+    background-image: url("smal-h.png");
+}
+    }
+
+
+
+@media screen and (min-width: 1800px){
+   .page-wrap {
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+     .header-up {
+         padding: 10px 40px 16px;
+         list-style: none;
+         background-color: #eee;
+    background-size: cover;
+     background-position: center top;
+    background-image: url("med-3.png");
+}
+
+    }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
