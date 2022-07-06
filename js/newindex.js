@@ -48,7 +48,7 @@ var ctx5 = canvas5.getContext('2d');
 var img5 = new Image();
 img5.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#0B656E",'p6.jpg',350,100));
+window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#0B656E",'p6.jpg',350,140));
 
 
 
