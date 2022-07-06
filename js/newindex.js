@@ -39,7 +39,7 @@ var ctx4 = canvas4.getContext('2d');
 var img4 = new Image();
 img4.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img4,ctx4,"#0B656E",'p5.jpg',350,200));
+window.addEventListener('load', DrawPlaceholder(img4,ctx4,"#0B656E",'p5.jpg',350,100));
 
 
 
@@ -48,7 +48,7 @@ var ctx5 = canvas5.getContext('2d');
 var img5 = new Image();
 img5.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#FFFFFF",'p6.jpg',350,400));
+window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#0B656E",'p6.jpg',350,100));
 
 
 
